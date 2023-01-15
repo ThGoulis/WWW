@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Biography Nikos Kazatzakis</title>
+    <link rel="shortcut icon" href="https://www.freeiconspng.com/uploads/ticket-tourism-travel-icon-png-19.png">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/css/Style.css">
+  <script type="text/javascript" src="/scripts/script.js"></script>
+<body>
+
+</head>
+<body>
+  <div id="Bionav" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="BioNavClose()">×</a>
+    <button class="openbtn" onclick="BioMenu()">Biography</a>
+  </div>
+
+  <div id="Photonav" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="PhotoNavClose()">×</a>
+    <button class="openbtn" onclick="PhotoMenu()">Nikos Kazatzakis<br>Photos</a>
+  </div>
+
+  <div id="Booksnav" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="BooksNavClose()">×</a>
+    <button class="openbtn" onclick="BookMenu()">Covers</a>
+  </div>
+
+  <div id="Linknav" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="LinkNavClose()">×</a>
+    <button class="openbtn" onclick="LinkMenu()">Links</a>
+  </div>
+
+  <div id="Managementnav" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="ManagementNavClose()">×</a>
+    <button class="openbtn" onclick="loginMenuOpen()">Login</a>
+    <button class="openbtn" onclick="registerMenuOpen()">Register</a>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">Menu</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="main">
+      <button class="openbtn" onclick="BioNavOpen()">Biography</button>  
+      <button class="openbtn" onclick="PhotoNavOpen()">Photos</button> 
+      <button class="openbtn" onclick="BooksNavOpen()">Books</button> 
+      <button class="openbtn" onclick="LinkNavOpen()">Links</button>
+      <button class="openbtn" onclick="ManagementNavOpen()">Management</button>   
+    </div>  
+  </nav>
+
+  <div id="BioMenu" style="background-color: powderblue; display:none">
+    <p>When Kazantzakis was born in 1883 in Kandiye, now Heraklion. <br>
+    Crete had not yet joined the modern Greek state (which had been established in 1832), and was still under the rule of the Ottoman Empire.<br>
+    From 1902 to 1906 Kazantzakis studied law at the University of Athens; his 1906 Juris Doctor thesis title was <i>Ο Φρειδερίκος Νίτσε εν τη φιλοσοφία του δικαίου και της πολιτείας</i> ("Friedrich Nietzsche on the Philosophy of Law and the State").<br>
+    Then he went to the Sorbonne in 1907 to study philosophy. There he fell under the influence of Henri Bergson. His 1909 doctoral dissertation at the Sorbonne was a reworked version of his 1906 dissertation under the title Friedrich Nietzsche dans la philosophie du droit et de la cité ("Friedrich Nietzsche on the Philosophy of Right and the State").<br>
+    Upon his return to Greece, he began translating works of philosophy. In 1914 he met Angelos Sikelianos. Together they travelled for two years in places where Greek Orthodox Christian culture flourished, largely influenced by the enthusiastic nationalism of Sikelianos.</p>
+  </div>
+
+  <div id="PhotoMenu" class="carousel slide" data-ride="carousel" style="display:none">
+    <ul class="carousel-indicators">
+        <li data-target="#PhotoMenu" data-slide-to="0" class="active"></li>
+        <li data-target="#PhotoMenu" data-slide-to="1"></li>
+        <li data-target="#PhotoMenu" data-slide-to="2"></li>
+    </ul>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Nikos_Kazantzakis.jpg" class="mx-auto d-block" alt="Kazatzakis1" width="400" height="300">
+        </div>
+        <div class="carousel-item">
+            <img src="https://greekreporter.com/wp-content/uploads/2021/07/Nikos-Kazantzakis-unknown-public-domain.jpg" class="mx-auto d-block" alt="Kazatzakis2" width="500" height="300">
+        </div>
+        <div class="carousel-item">
+            <img src="https://www.greeknewsagenda.gr/images/GNA_Pics/Text_pics/2017_TextPics/Kazantzakis-Pireos-1140X530_inner.jpg" class="mx-auto d-block" alt="Kazatzakis3" width="500" height="300">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#PhotoMenu" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#PhotoMenu" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+
+<div id="BookMenu" style="display:none">
+  <div class="container">
+    <div class="card-group">
+        <div class="row">
+            <div class="card col-md-4">
+                <img class="card-img-top" src= ./img/25734P.jpg>
+
+                <div class="card-body">
+                    <h3 class="card-title">Freedom and Death</h3>
+                </div>
+            </div>
+
+            <div class="card col-md-4">
+                <img class="card-img-top" src= ./img/H9867.jpg>
+                  
+                <div class="card-body">
+                    <h3 class="card-title">Aσκητική - Salvatores Dei</h3>
+                </div>
+            </div>
+              
+            <div class="card col-md-4">
+                <img class="card-img-top" src= ./img/ZORBA_THE_GREEK_MAFALDASTORE.jpg>
+                  
+                <div class="card-body">
+                    <h3 class="card-title">Zorba the Greek</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+  <form id="login" style="display:none;">
+    <input type="text" autocomplete="off" id="usernameLogin" placeholder="Username" />
+    <input type="password" autocomplete="off" id="passwordLogin" placeholder="Password" />
+    <input type="submit" value="Login" />
+  </form>
+
+  <script>
+    const loginform = document.getElementById('login')
+    loginform.addEventListener('submit', login)
+
+    async function login(event) {
+      event.preventDefault()
+      const username = document.getElementById('usernameLogin').value
+      const password = document.getElementById('passwordLogin').value
+
+      const result = await fetch('/api/login', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          "Access-Control-Allow-Origin": "*"
+        },
+        body: JSON.stringify({
+          username,
+          password
+        })
+      }).then((res) => res.json())
+
+      if (result.status === 'ok') {
+        
+        console.log('Got the token: ', result.data)
+        localStorage.setItem('token', result.data)
+        
+      } else {
+        alert(result.error)
+      }
+    }
+  </script>
+
+
+  <form id="register" style="display:none;">
+    <input type="text" autocomplete="off" id="username" placeholder="Username" />
+    <input type="password" autocomplete="off" id="password" placeholder="Password" />
+    <input type="password" autocomplete="off" id="password1" placeholder="Password" />
+    <input type="submit" value="Submit Form" />
+  </form>
+
+  <script>
+    const form = document.getElementById('register')
+    form.addEventListener('submit', registerUser)
+
+    async function registerUser(event) {
+      event.preventDefault()
+      const username = document.getElementById('username').value
+      const password = document.getElementById('password').value
+      const password1 = document.getElementById('password1').value
+      
+      if (password != password1){
+        alert("Your passwords is not the same")
+      }else{
+      const result = await fetch('/api/register', {
+        method: 'POST',
+        headers: {
+          Accept: 'application.json',
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          username,
+          password
+        })
+      }).then((res) => res.json())
+
+      if (result.status === 'ok') {
+        alert('User created')
+      } else {
+        alert(result.error)
+      }
+    }
+    }</script>
+  <div class="footer">© 2022 Copyright: Uth.gr</a></div>
+</body>
+
+
+
+<!-- https://en.wikipedia.org/wiki/Nikos_Kazantzakis
+https://el.wikipedia.org/wiki/%CE%9D%CE%AF%CE%BA%CE%BF%CF%82_%CE%9A%CE%B1%CE%B6%CE%B1%CE%BD%CF%84%CE%B6%CE%AC%CE%BA%CE%B7%CF%82
+https://www.kazantzaki.gr/en -->
